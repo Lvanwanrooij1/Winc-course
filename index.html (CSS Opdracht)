@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Index.html Leco Winc</title>
+
+<head>
+  <nav>
+    <ul class="nav">
+      <li><a href="house.html">House link</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Homepage</a></li>
+    </ul>
+  </nav>
+</head>
+
+<body>
+
+  <main>
+    <h1 class="heading-1"> My First Heading 1</h1>
+    <p class="tekst-1">
+      Dit is de introductietekst<br> met enter
+      Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst
+      in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar
+      husselde om een font-catalogus te maken.
+    </p>
+  </main>
+  <div class="grijze-achtergrond">
+    <h2> Dit is mijn eerste Heading 2</h2>
+    <img src="scannen.jpg" width="400" height="400">
+    <h3>Wat vind ik leuk?</h3>
+    <div class="lijst-2">
+      <ol>
+        <li>Sporten</li>
+        <li>Wandelen</li>
+        <li>netflixen</li>
+      </ol>
+    </div>
+  </div>
+  <footer>
+    <a href="about.html">Over mij</a>
+  </footer>
+</body>
+
+</html>
