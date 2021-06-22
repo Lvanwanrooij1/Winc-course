@@ -1,0 +1,41 @@
+.heading-1 {
+    border: seagreen dotted;
+    padding: 10px 5px;
+    border-radius: 8px;
+}
+
+.tekst-1 {
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.grijze-achtergrond {
+    background-color: cadetblue;
+    padding: 15px 10px;
+    border: 5px greenyellow double;
+    border-radius: 10px;
+}
+
+ul .nav{
+    list-style-type: none;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav li{
+    display: inline;
+    border: 5px black;
+    margin-right: 20px;
+  }
+
+@media (max-width: 1024px){
+   body {
+    background-color: #ffff59
+   }   
+   p {
+    color: darkturquoise;
+   }
+}
+
