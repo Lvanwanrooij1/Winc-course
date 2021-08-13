@@ -1,76 +1,47 @@
-<!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="styles.css">
-
 
 <head>
-  <title>Index.html Leco Winc</title>
-  <nav>
-    <ul class="nav">
-      <li><a href="house.html">House link</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#">Homepage</a></li>
-    </ul>
-  </nav>
+    <link rel="stylesheet" href="basic.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 150px 150px auto 200px 200px 200px;
+            grid-template-rows: 50px;
+            grid-gap: 50px black;
+        }
+
+        .head1 {
+            display: grid;
+            grid-template-columns: auto 400px 150px;
+            grid-template-rows: auto;
+            grid-gap: 50px black;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-
-  <main>
-    <h1 class="heading-1"> My First Heading 1</h1>
-    <p class="tekst-1">
-      Dit is de introductietekst<br> met enter
-      Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst
-      in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar
-      husselde om een font-catalogus te maken.
-    </p>
-  </main>
-  <div class="grijze-achtergrond">
-    <h2> Dit is mijn eerste Heading 2</h2>
-    <img src="scannen.jpg" width="400" height="400">
-    <h3>Wat vind ik leuk?</h3>
-    <div class="lijst-2">
-      <ol>
-        <li>Sporten</li>
-        <li>Wandelen</li>
-        <li>netflixen</li>
-      </ol>
+    <div class="submenu">
+        <div> </div>
+        <div>Winkelmand</div>
+        <div>Contact</div>
     </div>
-  </div>
-  <h2>Schrijf je in!</h2>
-  <form name="contact" method="POST" data-netlify="true">
-    <input type="text" value="Naam">
-    <input type="text" value="E-mail">
-    <br></br>
-    <input type="tel" value="Telefoonnummer">
-    <input type="text" value="Leeftijd">
-    <p>Geslacht?</p>
-    <input type="radio"> Man
-    <input type="radio"> Vrouw
-    <p>Favoriete keuken?</p>
-    <input type="checkbox">Spaans
-    <input type="checkbox">Italiaans
-    <input type="checkbox">Grieks
-    <p>Kies je favoriete kleur</p>
-    <input type="color">
-    <br></br>
-    <textarea rows="5" cols="40">
-Opmerking of vraag
-  </textarea>
-    </br>
-    <p>Upload je leukste recept</p>
-    <input type="file">
-    </br></br>
-    <input type="checkbox"> Ik ga akkoord met de voorwaarden</input>
-    </br></br>
-    <input type="submit">
-    </br></br>Niet tevreden?<input type="reset">
-  </form>
-</body>
-
-<footer>
-  <a href="about.html">Over mij</a>
-</footer>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <div class="Head1">
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br></br>
+            Tenetur dolor assumenda laudantium accusamus eaque a eius itaque repellendus illo aspernatur animi
+            voluptatem veritatis, pariatur, alias repellat, fuga quod ratione placeat?<br></br>
+        </div>
+        <div><img src="scannen.jpg" width="400" height="400"></div>
+        <div>3</div>
+    </div>
 </body>
 
 </html>
