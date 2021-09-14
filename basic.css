@@ -1,0 +1,99 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.submenu {
+    display: grid;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: auto 200px 200px;
+    grid-template-rows: 25px;
+    margin-bottom: 3px;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-gap: 50px black;
+  text-align: left;
+  margin: 25px;
+}
+
+.head1 > div:nth-child(3n) {
+  background-color: lightgrey;
+  width: auto;
+}
+
+.head1 > div:nth-child(1) {
+  background-color:lightgrey;
+}
+
+.pxlinks {
+  padding-left: 15px;
+}
+
+.button1 {
+  background-color: brown;
+  width: 150px;
+  height: 40px;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.mail {
+  margin-right: 15px;
+  padding-right: 15px;
+}
+
+.button1 {
+  margin-left: 20px;
+}
+
+.i3 {
+  margin-left: 25px;
+}
+
+.balk {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 140px;
+  background-color: burlywood;
+  margin-top: 25px;
+}
+
+.foto {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.blok4 {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  margin-top: 25px;
+  grid-template-columns: auto auto auto;
+}
+
+.groen {
+  background-color: rgb(73, 140, 179);
+}
+
+.blauw {
+  background-color: honeydew;
+}
